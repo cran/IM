@@ -1,0 +1,37 @@
+useDynLib(IM)
+exportPattern("^[[:alpha:]]+")
+exportMethods(
+
+    "checkSize<-",
+    "Moments<-",
+    "momentType<-",
+    "Reconstruct<-",
+    "setCentroid<-",
+    "setImage<-",
+    "setOrder<-",
+    "setParams<-",
+    "setPolar<-",
+    "setPoly<-",
+    "transform<-",
+    "Invariant<-",
+    "displayImg",
+    "initialize",
+    "polarTransform",
+    "polarXY",
+    "calcCentroid",
+    "calcMaxRadius",
+    "checkOrder",
+    "plotPoly",
+    "plotMoment",
+    "demoPoly",
+    "histeq",
+    "revPolar",
+    "momentObj",
+    "rotate270"
+)
+exportClasses(
+    "CmplxIm",
+     "Image",
+     "MultiIm",
+     "OrthIm" 
+)

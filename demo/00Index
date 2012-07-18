@@ -1,0 +1,11 @@
+demo_CmplxIm 	demonstrate usage of the complex image class
+demo_OrthIm 	demonstrate usage of the orthogonal image class
+demo_standalone 	demonstrate moment calculation using the stand-alone function, which returns an object
+cmplxClassification 	classify bacteria light scatter images based on generalized Pseudo-Zernike moment invariants
+cmplxClassificationLoop 	classify bacteria light scatter images based on generalized Pseudo-Zernike moment invariants
+demo_polarTransform 	demonstrate the polar transform applied to an image
+orthClassification 	classify Tamil characters using discrete Chebyshev moments
+polarClassification 	classify bacteria light scatter images based on discrete Chebyshev moment invariants of the polar unwrapped images
+polarClassificationLoop 	classify bacteria light scatter images based on discrete Chebyshev moment invariants of the polar unwrapped images
+reconstruct_cmplx 	compare reconstruction error of different complex moment types
+reconstruct_orth 	compare reconstruction error of different real orthogonal moment types
